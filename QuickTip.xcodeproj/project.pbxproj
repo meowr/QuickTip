@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610A85CB1C2917EE00EE470E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DC53041C1E7884007B956C /* LaunchScreen.storyboard */; };
+		6192FEC01C27C66F00C4083D /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6192FEBE1C27C66F00C4083D /* JosefinSans-Regular.ttf */; };
+		6192FEC41C27C67F00C4083D /* JosefinSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6192FEC21C27C67F00C4083D /* JosefinSlab-Regular.ttf */; };
 		61DC52FC1C1E7884007B956C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DC52FB1C1E7884007B956C /* AppDelegate.swift */; };
 		61DC52FE1C1E7884007B956C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DC52FD1C1E7884007B956C /* ViewController.swift */; };
 		61DC53011C1E7884007B956C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DC52FF1C1E7884007B956C /* Main.storyboard */; };
 		61DC53031C1E7884007B956C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61DC53021C1E7884007B956C /* Assets.xcassets */; };
-		61DC53061C1E7884007B956C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DC53041C1E7884007B956C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61DC52F81C1E7884007B956C /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6192FEBE1C27C66F00C4083D /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSans-Regular.ttf"; path = "../../../Downloads/Josefin_Sans/JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		6192FEC21C27C67F00C4083D /* JosefinSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSlab-Regular.ttf"; path = "../../../Downloads/Josefin_Slab/JosefinSlab-Regular.ttf"; sourceTree = "<group>"; };
+		61DC52F81C1E7884007B956C /* QuickTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DC52FB1C1E7884007B956C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61DC52FD1C1E7884007B956C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61DC53001C1E7884007B956C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +50,7 @@
 		61DC52F91C1E7884007B956C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61DC52F81C1E7884007B956C /* tips.app */,
+				61DC52F81C1E7884007B956C /* QuickTip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +64,8 @@
 				61DC53021C1E7884007B956C /* Assets.xcassets */,
 				61DC53041C1E7884007B956C /* LaunchScreen.storyboard */,
 				61DC53071C1E7884007B956C /* Info.plist */,
+				6192FEC21C27C67F00C4083D /* JosefinSlab-Regular.ttf */,
+				6192FEBE1C27C66F00C4083D /* JosefinSans-Regular.ttf */,
 			);
 			path = tips;
 			sourceTree = "<group>";
@@ -67,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61DC52F71C1E7884007B956C /* tips */ = {
+		61DC52F71C1E7884007B956C /* QuickTip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61DC530A1C1E7884007B956C /* Build configuration list for PBXNativeTarget "tips" */;
+			buildConfigurationList = 61DC530A1C1E7884007B956C /* Build configuration list for PBXNativeTarget "QuickTip" */;
 			buildPhases = (
 				61DC52F41C1E7884007B956C /* Sources */,
 				61DC52F51C1E7884007B956C /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = tips;
+			name = QuickTip;
 			productName = tips;
-			productReference = 61DC52F81C1E7884007B956C /* tips.app */;
+			productReference = 61DC52F81C1E7884007B956C /* QuickTip.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 61DC52F31C1E7884007B956C /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = 61DC52F31C1E7884007B956C /* Build configuration list for PBXProject "QuickTip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61DC52F71C1E7884007B956C /* tips */,
+				61DC52F71C1E7884007B956C /* QuickTip */,
 			);
 		};
 /* End PBXProject section */
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61DC53061C1E7884007B956C /* LaunchScreen.storyboard in Resources */,
+				6192FEC41C27C67F00C4083D /* JosefinSlab-Regular.ttf in Resources */,
 				61DC53031C1E7884007B956C /* Assets.xcassets in Resources */,
+				6192FEC01C27C66F00C4083D /* JosefinSans-Regular.ttf in Resources */,
+				610A85CB1C2917EE00EE470E /* LaunchScreen.storyboard in Resources */,
 				61DC53011C1E7884007B956C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +258,7 @@
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.tinachen.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QuickTip;
 			};
 			name = Debug;
 		};
@@ -261,14 +269,14 @@
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.tinachen.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QuickTip;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61DC52F31C1E7884007B956C /* Build configuration list for PBXProject "tips" */ = {
+		61DC52F31C1E7884007B956C /* Build configuration list for PBXProject "QuickTip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61DC53081C1E7884007B956C /* Debug */,
@@ -277,13 +285,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61DC530A1C1E7884007B956C /* Build configuration list for PBXNativeTarget "tips" */ = {
+		61DC530A1C1E7884007B956C /* Build configuration list for PBXNativeTarget "QuickTip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61DC530B1C1E7884007B956C /* Debug */,
 				61DC530C1C1E7884007B956C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

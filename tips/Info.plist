@@ -4,6 +4,13 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>JosefinSans-Bold.ttf</string>
+		<string>JosefinSans-Regular.ttf</string>
+		<string>JosefinSlab-Bold.ttf</string>
+		<string>JosefinSlab-Regular.ttf</string>
+	</array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -33,8 +40,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

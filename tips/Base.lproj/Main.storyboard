@@ -1,25 +1,138 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="JosefinSans-Regular.ttf">
+            <string>JosefinSans</string>
+            <string>JosefinSans</string>
+        </mutableArray>
+        <mutableArray key="JosefinSlab-Regular.ttf">
+            <string>JosefinSlab</string>
+            <string>JosefinSlab</string>
+            <string>JosefinSlab</string>
+            <string>JosefinSlab</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuickTip" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="oOO-9z-TIe">
+                                <rect key="frame" x="0.0" y="219" width="320" height="577"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ubW-mY-PZT">
+                                        <rect key="frame" x="21" y="27" width="70" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="JosefinSans" family="Josefin Sans" pointSize="14"/>
+                                        <color key="textColor" red="0.71764705882352942" green="0.89803921568627454" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JDk-TO-8cZ">
+                                        <rect key="frame" x="21" y="56" width="278" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="JosefinSlab" family="Josefin Slab" pointSize="52"/>
+                                        <color key="textColor" red="0.71764705882352942" green="0.89803921568627454" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.14509803921568626" green="0.52549019607843139" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="mVN-rO-PS2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="DYq-Nq-eKv">
+                                        <rect key="frame" x="20" y="69" width="278" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="JosefinSlab" family="Josefin Slab" pointSize="52"/>
+                                        <color key="textColor" red="0.062745098039215685" green="0.45490196078431372" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="48" id="aSb-1C-VYe">
+                                        <rect key="frame" x="51" y="69" width="249" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <edgeInsets key="layoutMargins" top="15" left="20" bottom="15" right="20"/>
+                                        <color key="textColor" red="0.062745098040000002" green="0.4549019608" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="JosefinSlab" family="Josefin Slab" pointSize="52"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="xbq-r0-uV9"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BILL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gv5-YY-sVz">
+                                        <rect key="frame" x="20" y="38" width="111" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <edgeInsets key="layoutMargins" top="40" left="20" bottom="8" right="8"/>
+                                        <fontDescription key="fontDescription" name="JosefinSans" family="Josefin Sans" pointSize="14"/>
+                                        <color key="textColor" red="0.14509803921568626" green="0.52549019607843139" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view alpha="0.25" contentMode="scaleToFill" id="dkn-p1-am6">
+                                        <rect key="frame" x="0.0" y="146" width="320" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.062745098040000002" green="0.4549019608" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="0.0" bottom="8" right="0.0"/>
+                                    </view>
+                                    <segmentedControl opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="aux-n0-GNg">
+                                        <rect key="frame" x="142" y="166" width="163" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="20"/>
+                                        <segments>
+                                            <segment title="18%"/>
+                                            <segment title="20%"/>
+                                            <segment title="22%"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.062745098039215685" green="0.45490196078431372" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="gGi-EZ-s6I"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fNY-Gg-lgu">
+                                        <rect key="frame" x="20" y="165" width="280" height="33.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="JosefinSlab" family="Josefin Slab" pointSize="26"/>
+                                        <color key="textColor" red="0.14509803921568626" green="0.52549019607843139" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.76470588235294112" green="0.9137254901960784" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76470588240000004" green="0.91372549020000005" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="hbr-aV-bCi" appends="YES" id="Uxm-Zd-Y8u"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="billArea" destination="mVN-rO-PS2" id="4tY-xK-DqL"/>
+                        <outlet property="billField" destination="aSb-1C-VYe" id="ixZ-NT-aWp"/>
+                        <outlet property="divider" destination="dkn-p1-am6" id="yAu-es-1xZ"/>
+                        <outlet property="tipControl" destination="aux-n0-GNg" id="8E0-Ie-ZYJ"/>
+                        <outlet property="tipLabel" destination="fNY-Gg-lgu" id="IOA-4w-7kH"/>
+                        <outlet property="totalArea" destination="oOO-9z-TIe" id="Ih7-rR-tfK"/>
+                        <outlet property="totalLabel" destination="JDk-TO-8cZ" id="sRO-d9-WTB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="hbr-aV-bCi">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="dGQ-CG-CMD"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="205" y="352"/>
         </scene>
     </scenes>
 </document>
